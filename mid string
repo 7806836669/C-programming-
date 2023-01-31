@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+void  printMiddleCharacter(string str)
+{
+    int len = str.size();
+    int middle = len / 2;
+    cout << str[middle];
+}
+int main()
+{
+    string str = "GeeksForGeeks";
+    printMiddleCharacter(str);
+    return 0;
+}
